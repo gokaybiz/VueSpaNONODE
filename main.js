@@ -13,6 +13,7 @@ import { About } from './components/about.js'
 Vue.use(VueRouter)
 
 const router = new VueRouter({
+  mode: 'history',
   routes: [{
     path: '/about',
     component: About,
