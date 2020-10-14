@@ -14,6 +14,7 @@ Vue.use(VueRouter)
 
 const router = new VueRouter({
   mode: 'history',
+  hash: false,
   routes: [{
     path: '/about',
     component: About,
